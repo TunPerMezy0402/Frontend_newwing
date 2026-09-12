@@ -1,15 +1,11 @@
-import { Button, Layout, Popconfirm, Typography } from "antd";
-import { DeleteOutlined } from "@ant-design/icons";
+import { Layout } from "antd";
 import AiCccdReader from "./components/AiCccdReader";
 import FactoryFormPanel from "./components/FactoryFormPanel";
 import AddressConverter from "./components/AddressConverter";
-import { useEmployeeStore } from "./store/employeeStore";
 
-const { Header, Content } = Layout;
-const { Title } = Typography;
+const { Content } = Layout;
 
 export default function App() {
-  const clearSession = useEmployeeStore((s) => s.clearSession);
 
   return (
     <Layout style={{ height: "100vh" }}>
