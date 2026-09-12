@@ -20,7 +20,7 @@ export default function AddressConverter() {
     }
     setIsConverting(true);
     try {
-      const { data } = await apiClient.post("/api/address/convert", {
+      const { data } = await apiClient.post("/address/convert", {
         oldAddress: employeeData.oldAddress,
       });
       setNewAddress(data.newAddress);

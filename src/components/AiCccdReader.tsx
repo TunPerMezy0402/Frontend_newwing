@@ -75,7 +75,7 @@ export default function AiCccdReader() {
       if (frontFile) formData.append("frontImage", frontFile);
       if (backFile) formData.append("backImage", backFile);
 
-      const { data } = await apiClient.post("/api/ai/extract-cccd", formData, {
+      const { data } = await apiClient.post("/ai/extract-cccd", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
       setEmployeeData(data);
