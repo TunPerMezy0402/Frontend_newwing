@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/api/client.ts","./src/components/addressconverter.tsx","./src/components/aicccdreader.tsx","./src/components/factoryformpanel.tsx","./src/store/employeestore.ts","./src/types/employee.ts"],"version":"5.9.3"}
